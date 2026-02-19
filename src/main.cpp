@@ -15,6 +15,9 @@
 
  // TODO 2:
  // Create variable to store touch state
+int touchPin=7;
+int ledPin=13;
+int buzzerPin=13;
 
 void setup() {
 
@@ -26,19 +29,9 @@ void setup() {
 
     // TODO 5:
     // Print system initialization message
+
+    pinMode(touchPin,INPUT);
+    pinMode(ledPin,OUTPUT);
+    Serial.begin(9600);
 }
 
-void loop() {
-
-    // TODO 6:
-    // Read digital value from touch sensor
-
-    // TODO 7:
-    // If touch detected (HIGH)
-    //     Print "Touch Detected"
-    // Else
-    //     Print "No Touch"
-
-    // TODO 8:
-    // Add small delay (200–500ms)
-}
