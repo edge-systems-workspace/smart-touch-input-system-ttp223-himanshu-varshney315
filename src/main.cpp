@@ -1,9 +1,9 @@
 #include <Arduino.h>
 /**
- * @file main.ino
+ * @file main.cpp
  * @brief Embedded Touch Detection System using TTP223
- * @author YOUR_NAME
- * @date YYYY-MM-DD
+ * @author Himanshu
+ * @date 2026-02-19
  *
  * @details
  * Reads digital touch input from TTP223 sensor
